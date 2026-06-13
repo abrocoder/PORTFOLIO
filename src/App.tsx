@@ -20,64 +20,68 @@ function App() {
         <p>{userData.about}</p>
       </section>
 
-      <section className="modalities">
-        <h2>Imaging Modalities</h2>
-        <div className="modality-list">
-          {userData.modalities.map((mod, index) => (
-            <span key={index} className="modality">{mod}</span>
-          ))}
-        </div>
-      </section>
+      {userData.modalities && userData.modalities.length > 0 && (
+        <section className="modalities">
+          <h2>Imaging Modalities</h2>
+          <div className="modality-list">
+            {userData.modalities.map((mod, index) => (
+              <span key={index} className="modality">{mod}</span>
+            ))}
+          </div>
+        </section>
+      )}
 
       <SkillsBreakdown />
 
-      <section className="projects">
-        <h2>Featured Projects</h2>
-        <div className="project-grid">
-          {userData.projects.map((project, index) => (
-            <div key={index} className="project-card">
-              <div className="project-image" style={{ backgroundImage: `url(${project.image})` }}>
-                <span className="project-tool">{project.tool}</span>
-              </div>
-              <div className="project-info">
-                <div className="project-meta">
-                  {project.timeline && <span className="project-timeline">⏱️ {project.timeline}</span>}
-                  {project.role && <span className="project-role">👤 {project.role}</span>}
+      {userData.projects && userData.projects.length > 0 && (
+        <section className="projects">
+          <h2>Featured Projects</h2>
+          <div className="project-grid">
+            {userData.projects.map((project, index) => (
+              <div key={index} className="project-card">
+                <div className="project-image" style={{ backgroundImage: `url(${project.image})` }}>
+                  <span className="project-tool">{project.tool}</span>
                 </div>
-                <h3>{project.title}</h3>
-                <p className="project-desc">{project.description}</p>
-                {project.details && (
-                  <ul className="project-details">
-                    {project.details.map((detail, i) => (
-                      <li key={i}>{detail}</li>
-                    ))}
-                  </ul>
-                )}
-                {project.technologies && project.technologies.length > 0 && (
-                  <div className="project-technologies">
-                    <strong>Technologies:</strong>
-                    <div className="tech-tags">
-                      {project.technologies.map((tech, i) => (
-                        <span key={i} className="tech-tag">{tech}</span>
-                      ))}
-                    </div>
+                <div className="project-info">
+                  <div className="project-meta">
+                    {project.timeline && <span className="project-timeline">⏱️ {project.timeline}</span>}
+                    {project.role && <span className="project-role">👤 {project.role}</span>}
                   </div>
-                )}
-                {project.outcomes && project.outcomes.length > 0 && (
-                  <div className="project-outcomes">
-                    <strong>Key Outcomes:</strong>
-                    <ul>
-                      {project.outcomes.map((outcome, i) => (
-                        <li key={i}>{outcome}</li>
+                  <h3>{project.title}</h3>
+                  <p className="project-desc">{project.description}</p>
+                  {project.details && (
+                    <ul className="project-details">
+                      {project.details.map((detail, i) => (
+                        <li key={i}>{detail}</li>
                       ))}
                     </ul>
-                  </div>
-                )}
+                  )}
+                  {project.technologies && project.technologies.length > 0 && (
+                    <div className="project-technologies">
+                      <strong>Technologies:</strong>
+                      <div className="tech-tags">
+                        {project.technologies.map((tech, i) => (
+                          <span key={i} className="tech-tag">{tech}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                  {project.outcomes && project.outcomes.length > 0 && (
+                    <div className="project-outcomes">
+                      <strong>Key Outcomes:</strong>
+                      <ul>
+                        {project.outcomes.map((outcome, i) => (
+                          <li key={i}>{outcome}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="experience">
         <h2>Experience</h2>
@@ -194,16 +198,18 @@ function App() {
         ))}
       </section>
 
-      <section className="volunteering">
-        <h2>Volunteering</h2>
-        {userData.volunteering.map((vol, index) => (
-          <div key={index} className="vol-item">
-            <h3>{vol.role} - {vol.organization}</h3>
-            <p className="period">{vol.period}</p>
-            <p>{vol.description}</p>
-          </div>
-        ))}
-      </section>
+      {userData.volunteering && userData.volunteering.length > 0 && (
+        <section className="volunteering">
+          <h2>Volunteering</h2>
+          {userData.volunteering.map((vol, index) => (
+            <div key={index} className="vol-item">
+              <h3>{vol.role} - {vol.organization}</h3>
+              <p className="period">{vol.period}</p>
+              <p>{vol.description}</p>
+            </div>
+          ))}
+        </section>
+      )}
 
       {/* Certifications Section */}
       {userData.certifications && userData.certifications.length > 0 && (
@@ -263,7 +269,11 @@ function App() {
 
       <footer className="footer">
         <p>© 2026 {userData.name} - Professional Portfolio</p>
-        <p className="footer-subtitle">Medical Imaging Specialist | Clinical Research | AI in Healthcare</p>
+        <p className="footer-subtitle">Support Worker | Mental Health & Learning Disabilities | Person-Centred Care</p>
+        <div className="footer-contact">
+          <p>📧 sharysang@gmail.com | 📞 07459164721</p>
+          <p>📍 Gloucester, England</p>
+        </div>
       </footer>
     </div>
   )
