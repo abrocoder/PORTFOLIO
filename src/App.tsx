@@ -269,10 +269,10 @@ function App() {
 
       <footer className="footer">
         <p>© 2026 {userData.name} - Professional Portfolio</p>
-        <p className="footer-subtitle">Support Worker | Mental Health & Learning Disabilities | Person-Centred Care</p>
+        <p className="footer-subtitle">Multi-Discipline Technical Specialist | Game Dev | GIS | Medical Imaging | CAD | Video Production | AI Research</p>
         <div className="footer-contact">
-          <p>📧 sharysang@gmail.com | 📞 07459164721</p>
-          <p>📍 Gloucester, England</p>
+          <p>🔗 <a href="https://linkedin.com/in/scotthollen" target="_blank" rel="noopener noreferrer">linkedin.com/in/scotthollen</a></p>
+          <p>📍 Richmond, Virginia, United States | 💰 $125/hour | Rolling Start Dates Available</p>
         </div>
       </footer>
     </div>
