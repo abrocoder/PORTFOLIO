@@ -269,12 +269,14 @@ function App() {
 
       <footer className="footer">
         <p>© 2026 {userData.name} - Professional Portfolio</p>
-        <p className="footer-subtitle">Senior Mechanical Engineer | SolidWorks Expert | ANSYS | 3D Printing | Patent Holder</p>
+        <p className="footer-subtitle">Healthcare AI Consultant | Physician-Scientist | Medical Imaging AI | Ex-Cleveland Clinic</p>
         <div className="footer-contact">
-          <p>📧 ryantravonmonkmcdowell@gmail.com</p>
-          <p>📍 Lancaster, California | Menasha, WI</p>
-          <p>🎓 Stanford MSME 2020 | MSOE BSME 2018 | 💼 FTI | AriensCo | Tesla | Stanford Solar Car</p>
-          <p>🏆 US Patent 11,917,944 B2 | Engineer in Training | SolidWorks Certified</p>
+          <p>📧 koriemyres@gmail.com</p>
+          <p>📍 Olmsted Falls, Ohio | Seattle, WA</p>
+          <p>🎓 MS Health Informatics (IU Indianapolis) | MBBS (Gandhi Medical College)</p>
+          <p>💼 Mercor | Outlier AI | Scale AI | Cleveland Clinic | Indiana University</p>
+          <p>🏆 SIIM NIIC Alumni Scholarship 2025 | Multiple Academic Scholarships</p>
+          <p>💡 "Science with soul, AI with empathy"</p>
         </div>
       </footer>
     </div>

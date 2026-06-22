@@ -1,416 +1,416 @@
 import type { UserData } from './types';
 
 export const userData: UserData = {
-  name: "Ryan Travon McDowell",
-  title: "Senior Mechanical Engineer | SolidWorks Expert",
-  about: "I am a certified Engineer in Training with a BS in Mechanical Engineering and Physics minor from Milwaukee School of Engineering (2018) and an MSME from Stanford (2020). I have been interested in math and science since grade school, but first knew that I really wanted to be an engineer after participating in my middle school's Future City competition. In high school I took many upper level math and science classes as well as Project Lead the Way engineering classes. The PLTW classes first introduced me to 3D modeling on Inventor as well as the basics of the engineering design process. In college, being a member of the MSOE Formula Hybrid and Stanford Solar Car teams has helped me apply the concepts I have learned in my classes to solve real world engineering problems through designing and building different race cars to take to competitions all over the world. I made either the Honor's List or Dean's List with High Honors every term at MSOE. In my free time I like tinkering with my 3D Printer, playing board games, and fan-packing.",
+  name: "Korie Myers",
+  title: "Healthcare AI Consultant | Physician-Scientist | Medical Imaging AI",
+  about: "I believe in science with soul, AI with empathy, and always asking, 'What if we could make this better?' As a physician-scientist with expertise in healthcare AI, medical imaging, and clinical research, I bridge the gap between cutting-edge technology and compassionate patient care. My work spans AI evaluation, medical imaging analysis, and clinical informatics, with experience at Cleveland Clinic and leading healthcare AI initiatives.",
   topSkills: [
-    "SolidWorks",
-    "3D Printing",
-    "ANSYS",
-    "Mechanical Engineering",
-    "FEA Analysis",
-    "Product Design",
-    "CAD Modeling",
-    "Patent Development",
-    "Engineering Design"
+    "Prompt Engineering",
+    "AI for Healthcare",
+    "Large Language Models (LLM)",
+    "Medical Imaging AI",
+    "Clinical AI",
+    "3D Slicer",
+    "Python",
+    "Deep Learning",
+    "Health Informatics"
   ],
   modalities: [],
   projects: [
     {
-      title: "UL 891 Deadfront Switchboards",
-      tool: "SolidWorks",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
-      timeline: "September 2025 - Present",
-      role: "Senior Mechanical Engineer",
-      description: "Designing components related to UL 891 Deadfront Switchboards at FTI",
+      title: "Healthcare AI Evaluation & LLM Validation",
+      tool: "LLM",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+      timeline: "May 2026 - Present",
+      role: "Healthcare AI Consultant",
+      description: "Evaluating and validating LLM outputs across healthcare domains for AI training and benchmarking",
       details: [
-        "Component design for electrical switchboards",
-        "Compliance with UL 891 safety standards",
-        "3D modeling and technical drawings",
-        "Manufacturing specifications and documentation"
+        "Designed prompts, rubrics, and evaluation frameworks for model accuracy assessment",
+        "Expert review of AI-generated clinical and analytical content",
+        "Developed domain-specific scenarios for medical imaging with 3D Slicer",
+        "Applied HITL (Human-in-the-Loop) AI evaluation methodology"
       ],
-      technologies: ["SolidWorks", "UL 891", "Electrical Components", "Manufacturing"],
+      technologies: ["LLMs", "Prompt Engineering", "3D Slicer", "Healthcare AI", "Clinical Reasoning"],
       outcomes: [
-        "Delivered compliant switchboard components",
-        "Met stringent safety and quality standards"
+        "Improved model performance through structured feedback",
+        "Enhanced AI reliability in clinical contexts"
       ]
     },
     {
-      title: "Commercial Zero-Turn Lawn & Garden Equipment",
-      tool: "ANSYS",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      timeline: "January 2024 - September 2025",
-      role: "Senior Engineer",
-      description: "Deck development and component/linkage development for commercial lawn equipment",
+      title: "Quantitative Neuroimaging Analysis - Cleveland Clinic",
+      tool: "Medical Imaging",
+      image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+      timeline: "June 2025 - May 2026",
+      role: "Research Engineer - Biomedical Imaging",
+      description: "Leading quantitative neuroimaging analysis across 350+ DaT SPECT and amyloid PET cases",
       details: [
-        "Deck lift mechanism design and optimization",
-        "Steering and chassis component development",
-        "FEA analysis for strength validation",
-        "Created design guides and calculators for knowledge repository"
+        "Processed 200+ DaT SPECT and 150+ amyloid PET (Centiloid) cases",
+        "Developed regression-based cross-calibration models in Python",
+        "Implemented SPM-based PET workflows for SUVR and Centiloid computation",
+        "Architected automated CT attenuation pipelines (80% efficiency gain)",
+        "Reduced volumetric pipeline runtime from 48 hours to 4 hours"
       ],
-      technologies: ["SolidWorks", "ANSYS", "FEA", "Mechanical Design"],
+      technologies: ["VIA", "DaTQUANT", "SPM", "Python", "NumPy", "Pandas", "Docker", "MIM"],
       outcomes: [
-        "Issued US Patent: US 11,917,944 B2 - Footrest For Outdoor Power Equipment",
-        "Optimized component strength and performance"
+        "Standardized biomarker extraction across 350+ cases",
+        "80% reduction in manual profiling effort (1200+ studies)",
+        "48h→4h pipeline optimization with parallelization"
       ]
     },
     {
-      title: "Stanford Solar Car - Battery & Mechanical Systems",
-      tool: "ANSYS Fluent",
-      image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80",
-      timeline: "September 2018 - June 2020",
-      role: "Battery & Mechanical Team Member",
-      description: "Designed and built solar-powered vehicle for World Solar Challenge in Australia",
+      title: "Deep Learning for Pancreatic & Brain MRI",
+      tool: "Deep Learning",
+      image: "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=800&q=80",
+      timeline: "June 2024 - June 2025",
+      role: "Data Scientist",
+      description: "Engineered deep-learning pipelines for automated MRI analysis using 3D U-Net architectures",
       details: [
-        "Modeled thermal event of Li-ion batteries (Ansys Fluent)",
-        "Designed battery module components (collector plates, clamshells)",
-        "Fabricated tie rods, sway bars, and structural supports",
-        "Analyzed structural integrity of driver's cell (Ansys Mechanical)",
-        "Secured $20k+ in product donations as Gear Sponsorship Lead"
+        "Automated SQ-MRI scoring for pancreatic MRI",
+        "Robust perivascular space detection in brain MRI",
+        "Deployed Dockerized workflows across multi-institutional datasets",
+        "Reduced manual ROI delineation by up to 90%"
       ],
-      technologies: ["SolidWorks", "ANSYS Fluent", "ANSYS Mechanical", "Carbon Fiber", "Battery Systems"],
+      technologies: ["3D U-Net", "Deep Learning", "Docker", "Python", "Medical Imaging", "MRI Analysis"],
       outcomes: [
-        "Competed at World Solar Challenge in Australia, Oct 2019",
-        "Secured over $20k in sponsorship donations"
+        "90% reduction in manual ROI delineation",
+        "Reproducible inference across multiple institutions"
       ]
     },
     {
-      title: "Tesla Battery Module Development",
-      tool: "Testing & Analysis",
-      image: "https://images.unsplash.com/photo-1593941707874-ef25b8b4a92b?w=800&q=80",
-      timeline: "October 2019 - January 2020",
-      role: "Mechanical Engineering Intern",
-      description: "Supported development of batteries for EV and energy product lines at Tesla",
+      title: "Human-AI Collaboration in Surgery Outcomes",
+      tool: "Clinical AI",
+      image: "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80",
+      timeline: "January 2023 - May 2024",
+      role: "Clinical Data Analyst",
+      description: "Multi-institutional studies analyzing 170,000+ surgical cases with AI collaboration",
       details: [
-        "Developed coupons and tested wire bond electrical endurance",
-        "Unlocked $30k weekly cost savings through material optimization",
-        "Performed 200+ pull tests to evaluate structural materials",
-        "Designed and assembled custom test fixtures"
+        "Led large-scale time-series analyses on 170,000+ surgical cases",
+        "Improved 30-day mortality prediction accuracy by 30%",
+        "Presented findings at AMIA and IEEE ISBI conferences",
+        "Human-AI collaboration research in clinical decision-making"
       ],
-      technologies: ["Testing", "Material Analysis", "Fixture Design", "Battery Technology"],
+      technologies: ["Machine Learning", "Time-Series Analysis", "Python", "Clinical Analytics", "Predictive Modeling"],
       outcomes: [
-        "$30k weekly cost savings through material efficiency",
-        "Validated structural material viability for production"
+        "30% improvement in mortality prediction accuracy",
+        "Research presented at AMIA and IEEE ISBI"
       ]
     },
     {
-      title: "Autonomous Wheelchair Securing Robot - VW Group",
-      tool: "Prototyping",
-      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
-      timeline: "October 2018 - June 2019",
-      role: "ME310 Design Team Member",
-      description: "Designed robotic solution for securing wheelchairs in autonomous taxi vehicles",
+      title: "Hospital Workflow Optimization & Analytics",
+      tool: "Healthcare Analytics",
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+      timeline: "April 2021 - November 2022",
+      role: "Clinical Data Analyst",
+      description: "Managed and analyzed 10,000+ patient records to improve hospital efficiency",
       details: [
-        "Collaborated with Stanford and UNAM Mexico grad students",
-        "Designed and fabricated final prototype components",
-        "Robot drives user up ramp, positions, and secures wheelchair",
-        "Conducted need finding, benchmarking, and prototyping"
+        "Optimized workflows, reducing wait times by 30%",
+        "Improved treatment efficacy by 15%",
+        "Developed real-time dashboards in Tableau",
+        "Applied statistical modeling using SPSS for clinical trends"
       ],
-      technologies: ["SolidWorks", "Robotics", "Prototyping", "Fabrication"],
+      technologies: ["Tableau", "SPSS", "Statistical Modeling", "Healthcare Analytics", "Data Visualization"],
       outcomes: [
-        "Delivered functional autonomous wheelchair securing system",
-        "International collaboration with Mexican university"
+        "30% reduction in patient wait times",
+        "15% improvement in treatment efficacy",
+        "Real-time patient outcome tracking"
       ]
     },
     {
-      title: "Formula Hybrid Battery Cooling System",
-      tool: "Thermal Analysis",
-      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80",
-      timeline: "Senior Design Project 2018",
-      role: "Project Lead & Designer",
-      description: "Researched and designed battery cooling system for Formula Hybrid race car",
+      title: "COVID-19 Critical Care Management",
+      tool: "Clinical Medicine",
+      image: "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+      timeline: "April 2020 - March 2021",
+      role: "Clinical Intern (House Surgeon)",
+      description: "Provided critical care during pandemic at leading COVID-19 referral center",
       details: [
-        "Senior design project for MSOE Formula Hybrid team",
-        "Thermal management for Li-ion batteries",
-        "Led 5-person design team",
-        "Acted as liaison between senior design and Formula Hybrid teams"
+        "Managed 100+ patients daily in ICU and emergency settings",
+        "Coordinated oxygen therapy and critical interventions",
+        "Handled emergency triage and minor procedures",
+        "Collaborated with specialists on treatment strategies",
+        "Maintained medical documentation for continuity and research"
       ],
-      technologies: ["Thermal Analysis", "Battery Cooling", "SolidWorks", "Heat Transfer"],
+      technologies: ["Critical Care", "Emergency Medicine", "ICU Management", "COVID-19 Treatment"],
       outcomes: [
-        "Designed functional cooling system for race car",
-        "Improved battery performance and safety"
+        "Provided care for 100+ patients daily",
+        "Developed rapid decision-making in high-pressure environments"
       ]
     }
   ],
   experience: [
     {
-      role: "Senior Mechanical Engineer",
-      company: "FTI",
-      period: "September 2025 - Present (10 months)",
-      location: "Menasha, WI",
+      role: "Healthcare AI Consultant",
+      company: "Mercor | Outlier AI | Scale AI",
+      period: "May 2026 - Present (2 months)",
+      location: "Seattle, WA",
       highlights: [
-        "Designing components related to UL 891 Deadfront Switchboards",
-        "Compliance with electrical safety standards",
-        "Advanced CAD modeling and manufacturing specifications"
+        "Evaluating and validating LLM outputs across healthcare, clinical reasoning, biostatistics, and ML domains",
+        "Designing prompts, rubrics, and evaluation frameworks for AI model assessment",
+        "Developing medical imaging scenarios using 3D Slicer for AI training",
+        "Conducting expert review of AI-generated clinical content",
+        "Applying expertise in medicine, health informatics, and healthcare analytics"
       ],
       responsibilities: [
         {
-          area: "Electrical Component Design",
+          area: "AI Evaluation & Validation",
           tasks: [
             {
-              id: "fti-001",
-              title: "UL 891 Switchboard Components",
-              description: "Design and develop components for UL 891 compliant deadfront switchboards",
+              id: "ai-001",
+              title: "LLM Healthcare Evaluation",
+              description: "Evaluate LLM outputs for accuracy, reasoning quality, and clinical consistency",
+              category: "quality",
+              status: "recurring",
+              impact: "Improved AI model reliability in healthcare applications",
+              metrics: ["Model accuracy", "Clinical consistency", "Reasoning quality"],
+              tools: ["LLMs", "Prompt Engineering", "Evaluation Frameworks"]
+            },
+            {
+              id: "ai-002",
+              title: "3D Slicer Workflow Development",
+              description: "Design domain-specific medical imaging workflows for AI training",
               category: "technical",
               status: "recurring",
-              impact: "Delivering safe, compliant electrical infrastructure components",
-              metrics: ["Component designs", "UL 891 compliance", "Manufacturing ready"],
-              tools: ["SolidWorks", "Technical Drawings", "Manufacturing Specs"]
+              impact: "Enhanced AI training for medical imaging applications",
+              metrics: ["Workflow scenarios", "Task execution", "Quality control"],
+              tools: ["3D Slicer", "Medical Imaging", "AI Training"]
             }
           ]
         }
       ],
       keyMetrics: [
-        { label: "Role", value: "Senior Engineer", description: "Electrical components" },
-        { label: "Standard", value: "UL 891", description: "Safety compliance" },
-        { label: "Focus", value: "Switchboards", description: "Deadfront design" }
+        { label: "Domain", value: "Healthcare AI", description: "LLM evaluation" },
+        { label: "Expertise", value: "Clinical + AI", description: "Physician-scientist" },
+        { label: "Focus", value: "Medical Imaging", description: "3D Slicer workflows" }
       ]
     },
     {
-      role: "Senior Engineer",
-      company: "AriensCo",
-      period: "January 2024 - September 2025 (1 year 9 months)",
-      location: "Brillion, WI",
+      role: "Research Engineer - Biomedical Imaging",
+      company: "Cleveland Clinic",
+      period: "June 2025 - May 2026 (1 year)",
+      location: "Cleveland, OH",
       highlights: [
-        "Member of commercial zero-turn lawn and garden team",
-        "Focus on deck development and component/linkage development",
-        "Issued US Patent: US 11,917,944 B2 - Footrest For Outdoor Power Equipment",
-        "Used FEA to design, iterate, and optimize components",
-        "Created design guides and knowledge repository documentation"
+        "Led quantitative neuroimaging analysis across 200+ DaT SPECT and 150+ amyloid PET cases",
+        "Developed Python-based cross-calibration models (NumPy, Pandas, StatsModels)",
+        "Implemented SPM-based PET workflows for SUVR and Centiloid computation",
+        "Architected automated CT pipelines reducing manual effort by 80% (1200+ studies)",
+        "Reduced pipeline runtime from 48 hours to 4 hours with Docker parallelization"
       ],
       responsibilities: [
         {
-          area: "Product Development & Design",
+          area: "Quantitative Neuroimaging",
           tasks: [
             {
-              id: "ariens-001",
-              title: "Deck & Chassis Development",
-              description: "Develop deck lifts, steering, and chassis components for commercial zero-turn equipment",
+              id: "cc-001",
+              title: "DaT SPECT & Amyloid PET Analysis",
+              description: "Process and analyze 350+ neuroimaging cases for biomarker extraction",
               category: "technical",
               status: "completed",
-              impact: "Advanced commercial lawn equipment performance and durability",
-              metrics: ["Component designs", "FEA validations", "Test procedures"],
-              tools: ["SolidWorks", "ANSYS", "FEA", "Testing"]
+              impact: "Standardized neuroimaging biomarker analysis at Cleveland Clinic",
+              metrics: ["200+ SPECT cases", "150+ PET cases", "Cross-validated results"],
+              tools: ["VIA", "DaTQUANT", "Hermes", "SPM", "Python"]
             },
             {
-              id: "ariens-002",
-              title: "Patent Development",
-              description: "Developed and secured US Patent for Footrest innovation",
-              category: "quality",
+              id: "cc-002",
+              title: "Automated CT Pipeline",
+              description: "Architected TotalSegmentator-based CT attenuation pipelines",
+              category: "technical",
               status: "completed",
-              impact: "Intellectual property development and product innovation",
-              metrics: ["Patent granted", "Product improvement", "Market differentiation"],
-              tools: ["Patent Documentation", "Product Design", "Innovation"]
+              impact: "80% reduction in manual profiling effort across 1200+ studies",
+              metrics: ["80% efficiency gain", "1200+ studies", "Automated processing"],
+              tools: ["TotalSegmentator", "Python", "Docker", "MIM"]
             }
           ]
         }
       ],
       keyMetrics: [
-        { label: "Patent", value: "US 11,917,944 B2", description: "Footrest design" },
-        { label: "Focus", value: "Commercial Equipment", description: "Zero-turn lawn" },
-        { label: "Expertise", value: "FEA & Testing", description: "Validation" }
+        { label: "Cases Analyzed", value: "350+", description: "SPECT & PET" },
+        { label: "Efficiency Gain", value: "80%", description: "CT automation" },
+        { label: "Speed Up", value: "12x faster", description: "48h → 4h" }
       ],
       achievements: [
         {
-          title: "US Patent Granted",
-          description: "US 11,917,944 B2 - Footrest For Outdoor Power Equipment",
-          impact: "Product innovation and intellectual property development",
-          date: "2024"
+          title: "Pipeline Optimization",
+          description: "Reduced volumetric analysis runtime from 48 hours to 4 hours",
+          impact: "12x speed improvement with Dockerized parallelization",
+          date: "2025"
         }
       ]
     },
     {
-      role: "Engineer II",
-      company: "AriensCo",
-      period: "April 2022 - January 2024 (1 year 10 months)",
-      location: "Brillion, Wisconsin, United States",
+      role: "Data Scientist",
+      company: "Luddy School of Informatics, Computing, and Engineering",
+      period: "June 2024 - June 2025 (1 year 1 month)",
+      location: "Indianapolis, Indiana",
       highlights: [
-        "Progressed from Engineer I to Engineer II",
-        "Continued work on commercial lawn and garden equipment",
-        "Component design and validation"
-      ],
-      responsibilities: [],
-      keyMetrics: [
-        { label: "Progression", value: "Engineer II", description: "Career advancement" }
-      ]
-    },
-    {
-      role: "Engineer I",
-      company: "AriensCo",
-      period: "June 2020 - April 2022 (1 year 11 months)",
-      location: "Brillion, Wisconsin, United States",
-      highlights: [
-        "Entry-level engineering position post-graduate school",
-        "Foundation in commercial equipment design",
-        "CAD modeling and component development"
-      ],
-      responsibilities: [],
-      keyMetrics: [
-        { label: "Starting Role", value: "Engineer I", description: "Post-Stanford" }
-      ]
-    },
-    {
-      role: "Battery & Mechanical Team Member, Safety Officer",
-      company: "Stanford Solar Car Project",
-      period: "September 2018 - June 2020 (1 year 10 months)",
-      location: "Stanford, CA",
-      highlights: [
-        "Designed and built solar-powered vehicle for World Solar Challenge",
-        "Modeled thermal event of Li-ion batteries (Ansys Fluent)",
-        "Designed battery module components (SolidWorks)",
-        "Analyzed structural integrity of driver's cell (Ansys Mechanical)",
-        "Secured $20k+ in product donations as Gear Sponsorship Lead"
+        "Engineered deep-learning pipelines for pancreatic and brain MRI",
+        "Automated SQ-MRI scoring using 3D U-Net architectures",
+        "Deployed Dockerized workflows across multi-institutional datasets",
+        "Reduced manual ROI delineation by up to 90%"
       ],
       responsibilities: [
         {
-          area: "Battery & Mechanical Systems",
+          area: "Deep Learning for Medical Imaging",
           tasks: [
             {
-              id: "solar-001",
-              title: "Battery Thermal Modeling",
-              description: "Model thermal events and determine optimal cell pitch for Li-ion batteries",
+              id: "luddy-001",
+              title: "3D U-Net Development",
+              description: "Develop multimodal 3D U-Net for automated MRI analysis",
               category: "technical",
               status: "completed",
-              impact: "Optimized battery safety and performance for solar car",
-              metrics: ["Thermal models", "Cell pitch optimization", "Safety validation"],
-              tools: ["ANSYS Fluent", "Thermal Analysis", "Battery Design"]
-            },
-            {
-              id: "solar-002",
-              title: "Sponsorship & Fundraising",
-              description: "Secured product donations from 15 companies totaling over $20k",
-              category: "coordination",
-              status: "completed",
-              impact: "Enabled team to acquire necessary gear and equipment",
-              metrics: ["$20k+ raised", "15 companies", "Product donations"],
-              tools: ["Sponsorship", "Fundraising", "Partnership Development"]
+              impact: "90% reduction in manual segmentation workload",
+              metrics: ["90% automation", "Multi-institutional deployment", "Reproducible inference"],
+              tools: ["3D U-Net", "Python", "Docker", "Deep Learning"]
             }
           ]
         }
       ],
+      responsibilities: [],
       keyMetrics: [
-        { label: "Competition", value: "World Solar Challenge", description: "Australia 2019" },
-        { label: "Sponsorship", value: "$20k+", description: "15 companies" },
-        { label: "Role", value: "Safety Officer", description: "Team leadership" }
+        { label: "Automation", value: "90%", description: "ROI delineation" },
+        { label: "Architecture", value: "3D U-Net", description: "Deep learning" },
+        { label: "Deployment", value: "Multi-institution", description: "Scalable workflows" }
       ]
     },
     {
-      role: "Mechanical Engineering Intern",
-      company: "Tesla",
-      period: "October 2019 - January 2020 (4 months)",
-      location: "Palo Alto, CA",
+      role: "Graduate Teaching Assistant",
+      company: "Luddy School of Informatics, Computing, and Engineering",
+      period: "January 2024 - May 2025 (1 year 5 months)",
+      location: "Indianapolis, Indiana",
       highlights: [
-        "Worked on Battery Module team for EV and energy products",
-        "Unlocked $30k weekly cost savings through material optimization",
-        "Performed 200+ pull tests on structural materials",
-        "Designed custom test fixtures"
+        "Supported graduate-level health informatics courses",
+        "Mentored students in data science and healthcare analytics",
+        "Facilitated lab sessions and grading"
       ],
-      responsibilities: [
-        {
-          area: "Battery Development & Testing",
-          tasks: [
-            {
-              id: "tesla-001",
-              title: "Cost Optimization",
-              description: "Investigated and documented material changes for $30k weekly savings",
-              category: "quality",
-              status: "completed",
-              impact: "$30k weekly cost savings on production critical timeline",
-              metrics: ["$30k/week savings", "Material efficiency", "Production timeline"],
-              tools: ["Material Analysis", "Documentation", "Process Optimization"]
-            }
-          ]
-        }
-      ],
-      keyMetrics: [
-        { label: "Savings", value: "$30k/week", description: "Cost reduction" },
-        { label: "Testing", value: "200+ samples", description: "Pull tests" },
-        { label: "Team", value: "Battery Module", description: "EV & energy" }
-      ]
+      responsibilities: [],
+      keyMetrics: []
     },
     {
-      role: "Mechanical Engineering Intern",
-      company: "Lumentum",
-      period: "June 2019 - August 2019 (3 months)",
-      location: "Milpitas, CA",
+      role: "Clinical Data Analyst",
+      company: "Luddy School of Informatics, Computing, and Engineering",
+      period: "January 2023 - May 2024 (1 year 5 months)",
+      location: "Indianapolis, Indiana",
       highlights: [
-        "Designed components for 2 R&D test stations for VCSELs (Lasers)",
-        "Created CNC machining drawings",
-        "Specified off-the-shelf components for test fixtures"
+        "Led multi-institutional Human-AI collaboration studies",
+        "Analyzed 170,000+ surgical cases using time-series methods",
+        "Improved 30-day mortality prediction accuracy by 30%",
+        "Presented findings at AMIA and IEEE ISBI conferences"
       ],
       responsibilities: [],
       keyMetrics: [
-        { label: "Focus", value: "VCSEL Testing", description: "Laser R&D" }
+        { label: "Dataset Size", value: "170,000+", description: "Surgical cases" },
+        { label: "Accuracy Gain", value: "+30%", description: "Mortality prediction" },
+        { label: "Conferences", value: "AMIA, ISBI", description: "Research presentations" }
       ]
     },
     {
-      role: "ME310 Design Project Team Member",
-      company: "Stanford University - VW Group Future Center",
-      period: "October 2018 - June 2019 (9 months)",
-      location: "Stanford, CA",
+      role: "Clinical Data Analyst",
+      company: "RM Hospital",
+      period: "April 2021 - November 2022 (1 year 8 months)",
+      location: "Hyderabad, Telangana, India",
       highlights: [
-        "International collaboration with UNAM Mexico students",
-        "Designed wheelchair securing robot for autonomous taxis",
-        "Fabricated functional prototype",
-        "Conducted comprehensive design research and prototyping"
+        "Managed and analyzed 10,000+ patient records",
+        "Reduced patient wait times by 30%",
+        "Improved treatment efficacy by 15%",
+        "Developed real-time Tableau dashboards",
+        "Applied SPSS for statistical modeling and predictive analytics"
       ],
       responsibilities: [],
       keyMetrics: [
-        { label: "Sponsor", value: "VW Group", description: "Future Center CA" },
-        { label: "Collaboration", value: "International", description: "Stanford & UNAM" }
+        { label: "Wait Time", value: "-30%", description: "Process optimization" },
+        { label: "Treatment", value: "+15%", description: "Efficacy improvement" },
+        { label: "Records", value: "10,000+", description: "Patient data" }
+      ]
+    },
+    {
+      role: "Clinical Intern (House Surgeon)",
+      company: "Gandhi Hospital, Secunderabad",
+      period: "April 2020 - March 2021 (1 year)",
+      location: "Secunderabad, Telangana, India",
+      highlights: [
+        "Provided critical care at leading COVID-19 referral center",
+        "Managed 100+ patients daily in ICU and emergency settings",
+        "Coordinated oxygen therapy and critical interventions",
+        "Handled emergency triage and procedures",
+        "Developed rapid decision-making in high-pressure environments"
+      ],
+      responsibilities: [],
+      keyMetrics: [
+        { label: "Patient Load", value: "100+/day", description: "COVID-19 center" },
+        { label: "Setting", value: "ICU & ER", description: "Critical care" },
+        { label: "Duration", value: "1 year", description: "Pandemic response" }
       ]
     }
   ],
   education: [
     {
-      degree: "Master of Science (MS), Mechanical Engineering",
-      school: "Stanford University",
-      period: "2018 - 2020",
-      description: "Graduate studies in mechanical engineering with focus on battery systems, solar vehicles, and autonomous systems"
+      degree: "Master's in Health Informatics",
+      school: "Indiana University Indianapolis",
+      period: "January 2023 - May 2025",
+      description: "Graduate studies in health informatics with focus on medical imaging AI, clinical data science, and healthcare analytics"
     },
     {
-      degree: "Bachelor's Degree, Mechanical Engineering (Physics Minor)",
-      school: "Milwaukee School of Engineering (MSOE)",
-      period: "2014 - 2018",
-      description: "Honors List or Dean's List with High Honors every term. Member of SAE Formula Hybrid team. Senior design project: Battery cooling system for Formula Hybrid race car"
+      degree: "Bachelor of Medicine, Bachelor of Surgery (MBBS)",
+      school: "Gandhi Medical College",
+      period: "September 2015 - March 2021",
+      description: "Medical degree with clinical training and internship at Gandhi Hospital (COVID-19 referral center)"
     }
   ],
   volunteering: [],
   certifications: [
     {
-      name: "Engineer in Training (EIT)",
-      issuer: "Professional Certification",
-      date: "2018"
-    },
-    {
-      name: "SolidWorks Certified Associate",
-      issuer: "SolidWorks",
-      date: "2017"
-    },
-    {
-      name: "Decision-Making Strategies",
-      issuer: "Professional Development",
-      date: "2020"
-    },
-    {
-      name: "Learning Microsoft Project",
+      name: "Learning Excel: Data Analysis",
       issuer: "LinkedIn Learning",
-      date: "2021"
+      date: "2023"
     },
     {
-      name: "Learning VBA in Excel",
+      name: "SAS® 9.4 Cert Prep: Part 01 SAS Programming Essentials",
       issuer: "LinkedIn Learning",
-      date: "2021"
+      date: "2023"
+    },
+    {
+      name: "Advanced SQL for Data Scientists",
+      issuer: "LinkedIn Learning",
+      date: "2024"
+    },
+    {
+      name: "GCP – Social and Behavioral Research Best Practices for Clinical Research",
+      issuer: "CITI Program",
+      date: "2023"
+    },
+    {
+      name: "Conflicts of Interest",
+      issuer: "CITI Program",
+      date: "2023"
+    },
+    {
+      name: "SIIM NIIC Alumni Scholarship 2025",
+      issuer: "Society for Imaging Informatics in Medicine",
+      date: "2025",
+      credentialId: "Scholarship Award"
+    },
+    {
+      name: "IUI Luddy MS Student Scholarship",
+      issuer: "Indiana University Indianapolis",
+      date: "2024",
+      credentialId: "Scholarship Award"
+    },
+    {
+      name: "BioHealth Informatics Research Travel Grant",
+      issuer: "Indiana University",
+      date: "2024",
+      credentialId: "Travel Grant"
+    },
+    {
+      name: "Ruth Walker Health Informatics Scholarship",
+      issuer: "Indiana University",
+      date: "2023",
+      credentialId: "Scholarship Award"
+    },
+    {
+      name: "The SIM Indy Leading the Future Scholarship",
+      issuer: "Society for Imaging Informatics in Medicine",
+      date: "2023",
+      credentialId: "Scholarship Award"
     }
   ],
-  publications: [
-    {
-      title: "US Patent 11,917,944 B2: Footrest For Outdoor Power Equipment",
-      authors: ["Ryan Travon McDowell", "AriensCo Team"],
-      journal: "United States Patent and Trademark Office",
-      date: "2024",
-      doi: "US 11,917,944 B2"
-    }
-  ]
+  publications: []
 };
