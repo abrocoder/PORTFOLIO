@@ -263,7 +263,6 @@ export const userData: UserData = {
           ]
         }
       ],
-      responsibilities: [],
       keyMetrics: [
         { label: "Automation", value: "90%", description: "ROI delineation" },
         { label: "Architecture", value: "3D U-Net", description: "Deep learning" },
