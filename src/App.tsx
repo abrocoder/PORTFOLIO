@@ -269,11 +269,12 @@ function App() {
 
       <footer className="footer">
         <p>© 2026 {userData.name} - Professional Portfolio</p>
-        <p className="footer-subtitle">AI Data Specialist | RLHF & SFT | Full-Stack Developer | Psychopharmacology Student</p>
+        <p className="footer-subtitle">Senior Mechanical Engineer | SolidWorks Expert | ANSYS | 3D Printing | Patent Holder</p>
         <div className="footer-contact">
-          <p>📧 georgepalsgraf43@outlook.com</p>
-          <p>📍 Las Vegas, Nevada, United States | Folsom, CA</p>
-          <p>💼 AfterQuery | Handshake | Mercor | AiSignalGraph</p>
+          <p>📧 ryantravonmonkmcdowell@gmail.com</p>
+          <p>📍 Lancaster, California | Menasha, WI</p>
+          <p>🎓 Stanford MSME 2020 | MSOE BSME 2018 | 💼 FTI | AriensCo | Tesla | Stanford Solar Car</p>
+          <p>🏆 US Patent 11,917,944 B2 | Engineer in Training | SolidWorks Certified</p>
         </div>
       </footer>
     </div>

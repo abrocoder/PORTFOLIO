@@ -1,384 +1,416 @@
 import type { UserData } from './types';
 
 export const userData: UserData = {
-  name: "George Palsgraf",
-  title: "AI Data Specialist | Machine Learning & Big Data",
-  about: "Forward-thinking psychopharmacology student and full-stack developer specializing in Human-in-the-Loop (HITL) AI model evaluation. Bridging the gap between psychopharmacology and artificial intelligence by applying academic rigor to Reinforcement Learning with Human Feedback (RLHF) and Supervised Fine-Tuning (SFT). Proven ability to engineer agentic AI workflows and independently architect full-stack applications. Seeking to leverage dual expertise in behavioral science and software engineering in elite AI safety fellowships, localized applied research, and clinical tech environments.",
+  name: "Ryan Travon McDowell",
+  title: "Senior Mechanical Engineer | SolidWorks Expert",
+  about: "I am a certified Engineer in Training with a BS in Mechanical Engineering and Physics minor from Milwaukee School of Engineering (2018) and an MSME from Stanford (2020). I have been interested in math and science since grade school, but first knew that I really wanted to be an engineer after participating in my middle school's Future City competition. In high school I took many upper level math and science classes as well as Project Lead the Way engineering classes. The PLTW classes first introduced me to 3D modeling on Inventor as well as the basics of the engineering design process. In college, being a member of the MSOE Formula Hybrid and Stanford Solar Car teams has helped me apply the concepts I have learned in my classes to solve real world engineering problems through designing and building different race cars to take to competitions all over the world. I made either the Honor's List or Dean's List with High Honors every term at MSOE. In my free time I like tinkering with my 3D Printer, playing board games, and fan-packing.",
   topSkills: [
-    "Claude Skills",
-    "OpenSCAD",
+    "SolidWorks",
+    "3D Printing",
+    "ANSYS",
     "Mechanical Engineering",
-    "Python",
-    "Java",
-    "C++",
-    "TypeScript",
-    "Machine Learning",
-    "RLHF & SFT"
+    "FEA Analysis",
+    "Product Design",
+    "CAD Modeling",
+    "Patent Development",
+    "Engineering Design"
   ],
   modalities: [],
   projects: [
     {
-      title: "AiSignalGraph - Production AI Ecosystem",
-      tool: "Full-Stack",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-      timeline: "November 2025 - Present (8 months)",
-      role: "Founder | Lead Designer",
-      description: "Leading the design and architecture of a production-grade software ecosystem optimized for advanced AI workflows",
-      details: [
-        "End-to-end full-stack development",
-        "User experience design and optimization",
-        "Cloud infrastructure deployment",
-        "Advanced AI workflow integration"
-      ],
-      technologies: ["Python", "TypeScript", "Node.js", "MongoDB", "Docker", "Tailwind CSS", "Flask"],
-      outcomes: [
-        "Built production-grade AI workflow platform",
-        "Optimized cloud infrastructure for scalability"
-      ]
-    },
-    {
-      title: "AI Model Evaluation & RLHF",
-      tool: "Machine Learning",
-      image: "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=800&q=80",
-      timeline: "Ongoing",
-      role: "AI Data Specialist",
-      description: "Human-in-the-Loop AI model evaluation specializing in RLHF and Supervised Fine-Tuning",
-      details: [
-        "Reviewed reasoning, coding, and instruction-following outputs",
-        "Delivered detailed feedback on accuracy and response quality",
-        "Code review evaluation and preference ranking",
-        "Advanced prompt engineering and adversarial red-teaming"
-      ],
-      technologies: ["RLHF", "SFT", "Prompt Engineering", "Red-Teaming", "Model Evaluation"],
-      outcomes: [
-        "Identified and corrected model hallucinations",
-        "Improved AI alignment through targeted feedback"
-      ]
-    },
-    {
-      title: "CAD Blueprint Design",
-      tool: "AutoCAD",
+      title: "UL 891 Deadfront Switchboards",
+      tool: "SolidWorks",
       image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
-      timeline: "June 2026 - Present",
-      role: "CAD Blueprint Expert",
-      description: "Expert-level CAD blueprint design and mechanical engineering documentation",
+      timeline: "September 2025 - Present",
+      role: "Senior Mechanical Engineer",
+      description: "Designing components related to UL 891 Deadfront Switchboards at FTI",
       details: [
-        "Technical blueprint creation and documentation",
-        "Mechanical design using AutoCAD and Fusion360",
-        "OpenSCAD parametric modeling",
-        "Engineering specification development"
+        "Component design for electrical switchboards",
+        "Compliance with UL 891 safety standards",
+        "3D modeling and technical drawings",
+        "Manufacturing specifications and documentation"
       ],
-      technologies: ["AutoCAD", "Fusion360", "OpenSCAD", "Mechanical Engineering"],
+      technologies: ["SolidWorks", "UL 891", "Electrical Components", "Manufacturing"],
       outcomes: [
-        "Delivered precision engineering blueprints",
-        "Streamlined CAD workflow processes"
+        "Delivered compliant switchboard components",
+        "Met stringent safety and quality standards"
       ]
     },
     {
-      title: "Quality Assurance for AI Vision Models",
-      tool: "Computer Vision",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
-      timeline: "May 2026 - Present",
-      role: "Quality Assurance Analyst",
-      description: "High-fidelity alignment analysis for AI vision models and descriptive captioning",
+      title: "Commercial Zero-Turn Lawn & Garden Equipment",
+      tool: "ANSYS",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      timeline: "January 2024 - September 2025",
+      role: "Senior Engineer",
+      description: "Deck development and component/linkage development for commercial lawn equipment",
       details: [
-        "Analyzed descriptive captions for visual action alignment",
-        "Identified micro-discrepancies in spatial tracking",
-        "Ensured temporal accuracy in real-time visual processing",
-        "Quality control for computer vision outputs"
+        "Deck lift mechanism design and optimization",
+        "Steering and chassis component development",
+        "FEA analysis for strength validation",
+        "Created design guides and calculators for knowledge repository"
       ],
-      technologies: ["Computer Vision", "Quality Assurance", "Image Analysis", "Data Validation"],
+      technologies: ["SolidWorks", "ANSYS", "FEA", "Mechanical Design"],
       outcomes: [
-        "Improved caption-to-visual alignment accuracy",
-        "Enhanced spatial and temporal tracking precision"
+        "Issued US Patent: US 11,917,944 B2 - Footrest For Outdoor Power Equipment",
+        "Optimized component strength and performance"
       ]
     },
     {
-      title: "Full-Stack Development Portfolio",
-      tool: "Web Development",
-      image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800&q=80",
-      timeline: "Ongoing",
-      role: "Full-Stack Developer",
-      description: "Independent full-stack application architecture and development",
+      title: "Stanford Solar Car - Battery & Mechanical Systems",
+      tool: "ANSYS Fluent",
+      image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80",
+      timeline: "September 2018 - June 2020",
+      role: "Battery & Mechanical Team Member",
+      description: "Designed and built solar-powered vehicle for World Solar Challenge in Australia",
       details: [
-        "Built applications using modern tech stacks",
-        "Implemented responsive UI/UX designs",
-        "Database architecture and optimization",
-        "Cloud deployment and DevOps"
+        "Modeled thermal event of Li-ion batteries (Ansys Fluent)",
+        "Designed battery module components (collector plates, clamshells)",
+        "Fabricated tie rods, sway bars, and structural supports",
+        "Analyzed structural integrity of driver's cell (Ansys Mechanical)",
+        "Secured $20k+ in product donations as Gear Sponsorship Lead"
       ],
-      technologies: ["Python", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Docker", "Bash"],
+      technologies: ["SolidWorks", "ANSYS Fluent", "ANSYS Mechanical", "Carbon Fiber", "Battery Systems"],
       outcomes: [
-        "Delivered production-ready applications",
-        "Optimized performance and scalability"
+        "Competed at World Solar Challenge in Australia, Oct 2019",
+        "Secured over $20k in sponsorship donations"
       ]
     },
     {
-      title: "Psychopharmacology & AI Integration",
-      tool: "Research",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
-      timeline: "Academic Focus",
-      role: "Researcher",
-      description: "Bridging behavioral science and AI through psychopharmacology research",
+      title: "Tesla Battery Module Development",
+      tool: "Testing & Analysis",
+      image: "https://images.unsplash.com/photo-1593941707874-ef25b8b4a92b?w=800&q=80",
+      timeline: "October 2019 - January 2020",
+      role: "Mechanical Engineering Intern",
+      description: "Supported development of batteries for EV and energy product lines at Tesla",
       details: [
-        "Applied cognitive psychology to AI model behavior",
-        "Dissected model hallucinations and anomalies",
-        "Behavioral anomaly identification",
-        "Targeted AI alignment strategies"
+        "Developed coupons and tested wire bond electrical endurance",
+        "Unlocked $30k weekly cost savings through material optimization",
+        "Performed 200+ pull tests to evaluate structural materials",
+        "Designed and assembled custom test fixtures"
       ],
-      technologies: ["Behavioral Science", "Cognitive Psychology", "AI Alignment", "Research Methodology"],
+      technologies: ["Testing", "Material Analysis", "Fixture Design", "Battery Technology"],
       outcomes: [
-        "Novel insights into AI-human interaction",
-        "Improved model alignment through behavioral science"
+        "$30k weekly cost savings through material efficiency",
+        "Validated structural material viability for production"
+      ]
+    },
+    {
+      title: "Autonomous Wheelchair Securing Robot - VW Group",
+      tool: "Prototyping",
+      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+      timeline: "October 2018 - June 2019",
+      role: "ME310 Design Team Member",
+      description: "Designed robotic solution for securing wheelchairs in autonomous taxi vehicles",
+      details: [
+        "Collaborated with Stanford and UNAM Mexico grad students",
+        "Designed and fabricated final prototype components",
+        "Robot drives user up ramp, positions, and secures wheelchair",
+        "Conducted need finding, benchmarking, and prototyping"
+      ],
+      technologies: ["SolidWorks", "Robotics", "Prototyping", "Fabrication"],
+      outcomes: [
+        "Delivered functional autonomous wheelchair securing system",
+        "International collaboration with Mexican university"
+      ]
+    },
+    {
+      title: "Formula Hybrid Battery Cooling System",
+      tool: "Thermal Analysis",
+      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80",
+      timeline: "Senior Design Project 2018",
+      role: "Project Lead & Designer",
+      description: "Researched and designed battery cooling system for Formula Hybrid race car",
+      details: [
+        "Senior design project for MSOE Formula Hybrid team",
+        "Thermal management for Li-ion batteries",
+        "Led 5-person design team",
+        "Acted as liaison between senior design and Formula Hybrid teams"
+      ],
+      technologies: ["Thermal Analysis", "Battery Cooling", "SolidWorks", "Heat Transfer"],
+      outcomes: [
+        "Designed functional cooling system for race car",
+        "Improved battery performance and safety"
       ]
     }
   ],
   experience: [
     {
-      role: "AI Data Specialist",
-      company: "AfterQuery",
-      period: "May 2026 - Present (2 months)",
-      location: "Las Vegas, Nevada, United States",
+      role: "Senior Mechanical Engineer",
+      company: "FTI",
+      period: "September 2025 - Present (10 months)",
+      location: "Menasha, WI",
       highlights: [
-        "Lead high-complexity evaluation and instruction-tuning tasks for next-generation generative AI models",
-        "Apply hybrid background in tech stacks and cognitive psychology to dissect model hallucinations",
-        "Identify behavioral anomalies and execute targeted alignment strategies",
-        "CAD Blueprint Expert focusing on technical design and engineering"
+        "Designing components related to UL 891 Deadfront Switchboards",
+        "Compliance with electrical safety standards",
+        "Advanced CAD modeling and manufacturing specifications"
       ],
       responsibilities: [
         {
-          area: "AI Model Evaluation & Training",
+          area: "Electrical Component Design",
           tasks: [
             {
-              id: "aq-001",
-              title: "Generative AI Model Evaluation",
-              description: "Lead high-complexity evaluation and instruction-tuning for next-gen AI models",
-              category: "quality",
-              status: "recurring",
-              impact: "Improved model performance through rigorous evaluation protocols",
-              metrics: ["Model accuracy improvements", "Hallucination detection", "Alignment optimization"],
-              tools: ["RLHF", "SFT", "Prompt Engineering"]
-            },
-            {
-              id: "aq-002",
-              title: "Behavioral Anomaly Detection",
-              description: "Apply cognitive psychology to identify and resolve AI behavioral anomalies",
-              category: "quality",
-              status: "recurring",
-              impact: "Enhanced AI safety through behavioral science integration",
-              metrics: ["Anomaly detection rate", "Correction accuracy", "Safety improvements"],
-              tools: ["Cognitive Psychology", "Model Analysis", "Red-Teaming"]
-            }
-          ]
-        }
-      ],
-      keyMetrics: [
-        { label: "Role Type", value: "Specialist", description: "AI Data & CAD" },
-        { label: "Focus", value: "Model Evaluation", description: "Next-gen AI" },
-        { label: "Expertise", value: "HITL", description: "Human-in-the-Loop" }
-      ]
-    },
-    {
-      role: "Quality Assurance Analyst",
-      company: "Handshake",
-      period: "May 2026 - Present (2 months)",
-      location: "Remote",
-      highlights: [
-        "Analyzed descriptive captions for high-fidelity alignment with complex, real-time visual actions",
-        "Identified and resolved micro-discrepancies in spatial tracking and temporal accuracy",
-        "Quality assurance for computer vision and AI captioning systems"
-      ],
-      responsibilities: [
-        {
-          area: "Visual AI Quality Assurance",
-          tasks: [
-            {
-              id: "hs-001",
-              title: "Caption-Visual Alignment Analysis",
-              description: "Ensure high-fidelity alignment between AI-generated captions and visual content",
-              category: "quality",
-              status: "recurring",
-              impact: "Significantly improved caption accuracy and relevance",
-              metrics: ["Alignment accuracy", "Discrepancy resolution", "Quality scores"],
-              tools: ["Computer Vision", "Quality Analysis", "Data Validation"]
-            }
-          ]
-        }
-      ],
-      keyMetrics: [
-        { label: "Focus Area", value: "Computer Vision", description: "AI captioning QA" },
-        { label: "Precision", value: "Micro-level", description: "Spatial & temporal" }
-      ]
-    },
-    {
-      role: "Artificial Intelligence Specialist/Fellowship",
-      company: "Handshake",
-      period: "August 2025 - Present (11 months)",
-      location: "Remote",
-      highlights: [
-        "11-month AI fellowship program focusing on advanced AI applications",
-        "Specialized in AI model evaluation and alignment",
-        "Contributed to cutting-edge AI research and development"
-      ],
-      responsibilities: [
-        {
-          area: "AI Research & Development",
-          tasks: [
-            {
-              id: "hsf-001",
-              title: "AI Fellowship Research",
-              description: "Advanced AI research and practical applications",
-              category: "training",
-              status: "recurring",
-              impact: "Developed expertise in AI safety and alignment",
-              metrics: ["Research contributions", "Skills acquired", "Project completions"],
-              tools: ["AI Research", "Model Evaluation", "Safety Protocols"]
-            }
-          ]
-        }
-      ],
-      keyMetrics: [
-        { label: "Program Type", value: "Fellowship", description: "11 months" },
-        { label: "Focus", value: "AI Specialist", description: "Research & development" }
-      ]
-    },
-    {
-      role: "Artificial Intelligence Researcher",
-      company: "Mercor",
-      period: "January 2026 - Present (6 months)",
-      location: "Remote",
-      highlights: [
-        "Reviewed reasoning, coding, and instruction-following outputs for model training",
-        "Caught errors in logic, tone, and scope across multiple AI models",
-        "Delivered detailed written feedback on accuracy, instruction adherence, and response quality",
-        "Applied advanced prompt engineering and adversarial red-teaming techniques"
-      ],
-      responsibilities: [
-        {
-          area: "AI Model Training & Evaluation",
-          tasks: [
-            {
-              id: "mer-001",
-              title: "Model Output Review",
-              description: "Review and evaluate AI model outputs across reasoning, coding, and instruction-following",
-              category: "quality",
-              status: "recurring",
-              impact: "Improved model training data quality through detailed feedback",
-              metrics: ["Error detection rate", "Feedback quality", "Model improvements"],
-              tools: ["Code Review", "Prompt Engineering", "Quality Analysis"]
-            },
-            {
-              id: "mer-002",
-              title: "Red-Teaming & Hallucination Detection",
-              description: "Apply adversarial techniques to identify model weaknesses and cognitive biases",
-              category: "quality",
-              status: "recurring",
-              impact: "Enhanced model robustness and reduced hallucinations",
-              metrics: ["Vulnerabilities found", "Hallucination reduction", "Bias identification"],
-              tools: ["Red-Teaming", "Adversarial Testing", "Bias Analysis"]
-            }
-          ]
-        }
-      ],
-      keyMetrics: [
-        { label: "Expertise", value: "RLHF", description: "Reinforcement learning" },
-        { label: "Skills", value: "Red-Teaming", description: "Adversarial testing" },
-        { label: "Focus", value: "Model Safety", description: "AI alignment" }
-      ]
-    },
-    {
-      role: "Founder | Lead Designer",
-      company: "AiSignalGraph",
-      period: "November 2025 - Present (8 months)",
-      location: "Remote",
-      highlights: [
-        "Leading the design and architecture of production-grade software ecosystem",
-        "Optimized for advanced AI workflows",
-        "Overseeing end-to-end full-stack development",
-        "User experience design and cloud infrastructure deployment"
-      ],
-      responsibilities: [
-        {
-          area: "Product Development & Architecture",
-          tasks: [
-            {
-              id: "asg-001",
-              title: "Full-Stack Development Leadership",
-              description: "Lead end-to-end development of production AI platform",
+              id: "fti-001",
+              title: "UL 891 Switchboard Components",
+              description: "Design and develop components for UL 891 compliant deadfront switchboards",
               category: "technical",
               status: "recurring",
-              impact: "Built scalable AI workflow ecosystem from ground up",
-              metrics: ["Platform development", "User adoption", "Feature delivery"],
-              tools: ["Python", "TypeScript", "Node.js", "MongoDB", "Docker"]
+              impact: "Delivering safe, compliant electrical infrastructure components",
+              metrics: ["Component designs", "UL 891 compliance", "Manufacturing ready"],
+              tools: ["SolidWorks", "Technical Drawings", "Manufacturing Specs"]
             }
           ]
         }
       ],
       keyMetrics: [
-        { label: "Role", value: "Founder", description: "Lead Designer" },
-        { label: "Product", value: "AI Platform", description: "Production-grade" },
-        { label: "Scope", value: "Full-Stack", description: "End-to-end" }
+        { label: "Role", value: "Senior Engineer", description: "Electrical components" },
+        { label: "Standard", value: "UL 891", description: "Safety compliance" },
+        { label: "Focus", value: "Switchboards", description: "Deadfront design" }
       ]
     },
     {
-      role: "Shift Lead & Lead Cook",
-      company: "Habit Burger & Grill",
-      period: "October 2025 - Present (9 months)",
-      location: "Folsom, CA",
+      role: "Senior Engineer",
+      company: "AriensCo",
+      period: "January 2024 - September 2025 (1 year 9 months)",
+      location: "Brillion, WI",
       highlights: [
-        "Manage shift operations and lead cross-functional teams in fast-paced environment",
-        "Reduced service times and optimized workflows",
-        "Apply analytical problem-solving to identify process bottlenecks",
-        "Ensure rigorous quality control and transaction accuracy"
+        "Member of commercial zero-turn lawn and garden team",
+        "Focus on deck development and component/linkage development",
+        "Issued US Patent: US 11,917,944 B2 - Footrest For Outdoor Power Equipment",
+        "Used FEA to design, iterate, and optimize components",
+        "Created design guides and knowledge repository documentation"
+      ],
+      responsibilities: [
+        {
+          area: "Product Development & Design",
+          tasks: [
+            {
+              id: "ariens-001",
+              title: "Deck & Chassis Development",
+              description: "Develop deck lifts, steering, and chassis components for commercial zero-turn equipment",
+              category: "technical",
+              status: "completed",
+              impact: "Advanced commercial lawn equipment performance and durability",
+              metrics: ["Component designs", "FEA validations", "Test procedures"],
+              tools: ["SolidWorks", "ANSYS", "FEA", "Testing"]
+            },
+            {
+              id: "ariens-002",
+              title: "Patent Development",
+              description: "Developed and secured US Patent for Footrest innovation",
+              category: "quality",
+              status: "completed",
+              impact: "Intellectual property development and product innovation",
+              metrics: ["Patent granted", "Product improvement", "Market differentiation"],
+              tools: ["Patent Documentation", "Product Design", "Innovation"]
+            }
+          ]
+        }
+      ],
+      keyMetrics: [
+        { label: "Patent", value: "US 11,917,944 B2", description: "Footrest design" },
+        { label: "Focus", value: "Commercial Equipment", description: "Zero-turn lawn" },
+        { label: "Expertise", value: "FEA & Testing", description: "Validation" }
+      ],
+      achievements: [
+        {
+          title: "US Patent Granted",
+          description: "US 11,917,944 B2 - Footrest For Outdoor Power Equipment",
+          impact: "Product innovation and intellectual property development",
+          date: "2024"
+        }
+      ]
+    },
+    {
+      role: "Engineer II",
+      company: "AriensCo",
+      period: "April 2022 - January 2024 (1 year 10 months)",
+      location: "Brillion, Wisconsin, United States",
+      highlights: [
+        "Progressed from Engineer I to Engineer II",
+        "Continued work on commercial lawn and garden equipment",
+        "Component design and validation"
       ],
       responsibilities: [],
       keyMetrics: [
-        { label: "Leadership", value: "Team Lead", description: "Fast-paced ops" },
-        { label: "Skills", value: "Process Optimization", description: "Problem-solving" }
+        { label: "Progression", value: "Engineer II", description: "Career advancement" }
+      ]
+    },
+    {
+      role: "Engineer I",
+      company: "AriensCo",
+      period: "June 2020 - April 2022 (1 year 11 months)",
+      location: "Brillion, Wisconsin, United States",
+      highlights: [
+        "Entry-level engineering position post-graduate school",
+        "Foundation in commercial equipment design",
+        "CAD modeling and component development"
+      ],
+      responsibilities: [],
+      keyMetrics: [
+        { label: "Starting Role", value: "Engineer I", description: "Post-Stanford" }
+      ]
+    },
+    {
+      role: "Battery & Mechanical Team Member, Safety Officer",
+      company: "Stanford Solar Car Project",
+      period: "September 2018 - June 2020 (1 year 10 months)",
+      location: "Stanford, CA",
+      highlights: [
+        "Designed and built solar-powered vehicle for World Solar Challenge",
+        "Modeled thermal event of Li-ion batteries (Ansys Fluent)",
+        "Designed battery module components (SolidWorks)",
+        "Analyzed structural integrity of driver's cell (Ansys Mechanical)",
+        "Secured $20k+ in product donations as Gear Sponsorship Lead"
+      ],
+      responsibilities: [
+        {
+          area: "Battery & Mechanical Systems",
+          tasks: [
+            {
+              id: "solar-001",
+              title: "Battery Thermal Modeling",
+              description: "Model thermal events and determine optimal cell pitch for Li-ion batteries",
+              category: "technical",
+              status: "completed",
+              impact: "Optimized battery safety and performance for solar car",
+              metrics: ["Thermal models", "Cell pitch optimization", "Safety validation"],
+              tools: ["ANSYS Fluent", "Thermal Analysis", "Battery Design"]
+            },
+            {
+              id: "solar-002",
+              title: "Sponsorship & Fundraising",
+              description: "Secured product donations from 15 companies totaling over $20k",
+              category: "coordination",
+              status: "completed",
+              impact: "Enabled team to acquire necessary gear and equipment",
+              metrics: ["$20k+ raised", "15 companies", "Product donations"],
+              tools: ["Sponsorship", "Fundraising", "Partnership Development"]
+            }
+          ]
+        }
+      ],
+      keyMetrics: [
+        { label: "Competition", value: "World Solar Challenge", description: "Australia 2019" },
+        { label: "Sponsorship", value: "$20k+", description: "15 companies" },
+        { label: "Role", value: "Safety Officer", description: "Team leadership" }
+      ]
+    },
+    {
+      role: "Mechanical Engineering Intern",
+      company: "Tesla",
+      period: "October 2019 - January 2020 (4 months)",
+      location: "Palo Alto, CA",
+      highlights: [
+        "Worked on Battery Module team for EV and energy products",
+        "Unlocked $30k weekly cost savings through material optimization",
+        "Performed 200+ pull tests on structural materials",
+        "Designed custom test fixtures"
+      ],
+      responsibilities: [
+        {
+          area: "Battery Development & Testing",
+          tasks: [
+            {
+              id: "tesla-001",
+              title: "Cost Optimization",
+              description: "Investigated and documented material changes for $30k weekly savings",
+              category: "quality",
+              status: "completed",
+              impact: "$30k weekly cost savings on production critical timeline",
+              metrics: ["$30k/week savings", "Material efficiency", "Production timeline"],
+              tools: ["Material Analysis", "Documentation", "Process Optimization"]
+            }
+          ]
+        }
+      ],
+      keyMetrics: [
+        { label: "Savings", value: "$30k/week", description: "Cost reduction" },
+        { label: "Testing", value: "200+ samples", description: "Pull tests" },
+        { label: "Team", value: "Battery Module", description: "EV & energy" }
+      ]
+    },
+    {
+      role: "Mechanical Engineering Intern",
+      company: "Lumentum",
+      period: "June 2019 - August 2019 (3 months)",
+      location: "Milpitas, CA",
+      highlights: [
+        "Designed components for 2 R&D test stations for VCSELs (Lasers)",
+        "Created CNC machining drawings",
+        "Specified off-the-shelf components for test fixtures"
+      ],
+      responsibilities: [],
+      keyMetrics: [
+        { label: "Focus", value: "VCSEL Testing", description: "Laser R&D" }
+      ]
+    },
+    {
+      role: "ME310 Design Project Team Member",
+      company: "Stanford University - VW Group Future Center",
+      period: "October 2018 - June 2019 (9 months)",
+      location: "Stanford, CA",
+      highlights: [
+        "International collaboration with UNAM Mexico students",
+        "Designed wheelchair securing robot for autonomous taxis",
+        "Fabricated functional prototype",
+        "Conducted comprehensive design research and prototyping"
+      ],
+      responsibilities: [],
+      keyMetrics: [
+        { label: "Sponsor", value: "VW Group", description: "Future Center CA" },
+        { label: "Collaboration", value: "International", description: "Stanford & UNAM" }
       ]
     }
   ],
   education: [
     {
-      degree: "Transferring, Psychopharmacology",
-      school: "Folsom Lake College",
-      period: "August 2024 - December 2026",
-      description: "Specialized studies in psychopharmacology with focus on behavioral science and AI integration"
+      degree: "Master of Science (MS), Mechanical Engineering",
+      school: "Stanford University",
+      period: "2018 - 2020",
+      description: "Graduate studies in mechanical engineering with focus on battery systems, solar vehicles, and autonomous systems"
     },
     {
-      degree: "Sophomore, Mechanical Engineering",
-      school: "Sacramento City College",
-      period: "August 2025",
-      description: "Mechanical engineering coursework"
-    },
-    {
-      degree: "Sophomore Undergraduate, Mechanical Engineering",
-      school: "Folsom Lake College",
-      period: "August 2024 - December 2025",
-      description: "Undergraduate mechanical engineering studies"
+      degree: "Bachelor's Degree, Mechanical Engineering (Physics Minor)",
+      school: "Milwaukee School of Engineering (MSOE)",
+      period: "2014 - 2018",
+      description: "Honors List or Dean's List with High Honors every term. Member of SAE Formula Hybrid team. Senior design project: Battery cooling system for Formula Hybrid race car"
     }
   ],
   volunteering: [],
   certifications: [
     {
-      name: "Claude 101",
-      issuer: "Anthropic",
-      date: "2024"
+      name: "Engineer in Training (EIT)",
+      issuer: "Professional Certification",
+      date: "2018"
     },
     {
-      name: "AI Fluency: Framework & Foundations",
-      issuer: "Professional Training",
-      date: "2024"
+      name: "SolidWorks Certified Associate",
+      issuer: "SolidWorks",
+      date: "2017"
     },
     {
-      name: "Introduction to Agent Skills",
-      issuer: "AI Training Program",
-      date: "2024"
+      name: "Decision-Making Strategies",
+      issuer: "Professional Development",
+      date: "2020"
     },
     {
-      name: "CS50X - Introduction to Computer Science",
-      issuer: "Harvard University (Online)",
-      date: "2023"
+      name: "Learning Microsoft Project",
+      issuer: "LinkedIn Learning",
+      date: "2021"
+    },
+    {
+      name: "Learning VBA in Excel",
+      issuer: "LinkedIn Learning",
+      date: "2021"
     }
   ],
-  publications: []
+  publications: [
+    {
+      title: "US Patent 11,917,944 B2: Footrest For Outdoor Power Equipment",
+      authors: ["Ryan Travon McDowell", "AriensCo Team"],
+      journal: "United States Patent and Trademark Office",
+      date: "2024",
+      doi: "US 11,917,944 B2"
+    }
+  ]
 };
